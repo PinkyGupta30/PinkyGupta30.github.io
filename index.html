@@ -5,93 +5,151 @@
   <title>Pinky Gupta | Java Backend Developer</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f7fa;
-      color: #333;
       margin: 0;
-      padding: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
     }
+
     .container {
       max-width: 900px;
       margin: auto;
       padding: 40px 20px;
     }
-    h1 {
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
       color: #1f2937;
-      margin-bottom: 5px;
     }
-    h2 {
-      margin-top: 30px;
-      border-bottom: 2px solid #e5e7eb;
-      padding-bottom: 5px;
-    }
-    .subtitle {
+
+    .header p {
+      margin-top: 8px;
+      font-size: 18px;
       color: #2563eb;
-      font-weight: bold;
-      margin-bottom: 20px;
+      font-weight: 600;
     }
+
+    section {
+      background: #ffffff;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    section h2 {
+      margin-top: 0;
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 8px;
+      color: #111827;
+    }
+
     ul {
       padding-left: 20px;
     }
-    a {
-      color: #2563eb;
-      text-decoration: none;
+
+    .skills li {
+      margin-bottom: 6px;
     }
-    a:hover {
-      text-decoration: underline;
-    }
+
     .project {
       margin-bottom: 15px;
     }
+
+    .project a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+    }
+
+    .contact p {
+      margin: 6px 0;
+    }
+
     .footer {
-      margin-top: 40px;
+      text-align: center;
       font-size: 14px;
       color: #6b7280;
+      margin-top: 30px;
     }
   </style>
 </head>
+
 <body>
 
 <div class="container">
-  <h1>Pinky Gupta</h1>
-  <div class="subtitle">Java Backend Developer</div>
 
-  <p>
-    Java Backend Developer with experience in building RESTful APIs using Spring Boot,
-    MySQL, and Java. Passionate about clean code and scalable backend systems.
-  </p>
-
-  <h2>Skills</h2>
-  <ul>
-    <li>Java, Spring Boot</li>
-    <li>REST APIs, MySQL</li>
-    <li>Spring Data JPA, Hibernate</li>
-    <li>Git, GitHub</li>
-  </ul>
-
-  <h2>Projects</h2>
-  <div class="project">
-    <b>Student Management System</b><br>
-    <a href="https://github.com/PinkyGupta30/student-management-system">GitHub Repository</a>
-  </div>
-  <div class="project">
-    <b>Spring Boot Backend Service</b><br>
-    <a href="https://github.com/PinkyGupta30/springboot-backend-service">GitHub Repository</a>
-  </div>
-  <div class="project">
-    <b>Bank Account Service</b><br>
-    <a href="https://github.com/PinkyGupta30/bank-account-service">GitHub Repository</a>
+  <div class="header">
+    <h1>Pinky Gupta</h1>
+    <p>Java Backend Developer</p>
   </div>
 
-  <h2>Contact</h2>
-  <p>
-    Email: pinkkygupta1@gmail.com <br>
-    GitHub: <a href="https://github.com/PinkyGupta30">github.com/PinkyGupta30</a>
-  </p>
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Java Backend Developer with experience in building RESTful APIs using
+      Spring Boot, MySQL, and Java. I focus on clean code, backend logic,
+      and scalable application design.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Java, Spring Boot</li>
+      <li>REST APIs, MySQL</li>
+      <li>Spring Data JPA, Hibernate</li>
+      <li>Git, GitHub</li>
+      <li>Basic knowledge of testing (JUnit, Postman)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="project">
+      <b>Student Management System</b><br>
+      <a href="https://github.com/PinkyGupta30/student-management-system">
+        View on GitHub
+      </a>
+    </div>
+
+    <div class="project">
+      <b>Spring Boot Backend Service</b><br>
+      <a href="https://github.com/PinkyGupta30/springboot-backend-service">
+        View on GitHub
+      </a>
+    </div>
+
+    <div class="project">
+      <b>Bank Account Service</b><br>
+      <a href="https://github.com/PinkyGupta30/bank-account-service">
+        View on GitHub
+      </a>
+    </div>
+
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: pinkkygupta1@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/PinkyGupta30">github.com/PinkyGupta30</a></p>
+  </section>
 
   <div class="footer">
     © 2026 Pinky Gupta
   </div>
+
 </div>
 
 </body>
